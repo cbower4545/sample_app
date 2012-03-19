@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.11'
-gem 'sqlite3', '1.3.3'
+gem 'rails', '3.0.1'
+gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'thin'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 
 group :development do
